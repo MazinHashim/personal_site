@@ -1,0 +1,225 @@
+@media (max-width: 1000px){
+    section p
+    {
+        font-size: 15px;
+    }
+}
+/* @media (max-width: 700px)
+{
+    section .box
+    {
+        max-width: 160vw;
+    }
+} */
+/* Now Make It Responsive */
+@media (max-width: 1200px) {
+    header .banner
+    {
+        left: 0;
+        width: 100%;
+    }
+    header .theme
+    {
+        display: none;
+    }
+    header.sticky .banner
+    {
+        opacity: 0;
+    }
+    header.sticky .banner
+    {
+        width: 100%;
+        opacity: 0;
+    }
+    header.sticky nav ul
+    {
+        display: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+    header.sticky nav.active ul
+    {
+        position: fixed;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 80px);
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        opacity: 1;
+        visibility: visible;
+    }
+    header.sticky nav ul li a
+    {
+        font-size: 1.5em;
+        padding: 5px 15px;
+    }
+    header.sticky .toggle p
+    {
+        text-align: center;
+    }
+    header.sticky .toggle
+    {
+        position: fixed;
+        top: 15px;
+        right: 40px;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        background: #fff url('../img/menu.png');
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 10px;
+        transition: 0.2s;
+    }
+    header.sticky .toggle.active
+    {
+        background: #fff url('../img/close.png');
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    section,
+    header
+    {
+        padding: 40px;
+    }
+    header .logo,
+    header span.jop {
+        left: 25%;
+    }
+    header.sticky .logo
+    {
+        left: 40px;
+    }
+    header span.goon{
+        display: block;
+        top: 10%;
+        bottom: initial;
+        font-size: 1.2em;
+        padding: 10px 15px;
+        border-radius: 50px;
+        left: 50%;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        transform: rotate(0deg) translate(-50%, -50%);
+    }
+}
+@media (max-width: 800px) {
+    section.contact .container
+    {
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+    .experiences h2 {
+        grid-column: 1 / span 2;
+        /* grid-column: 1 / 2; */
+    }
+    .experiences .exper-card {
+        grid-column: 1 / span 2;
+    }
+    .experiences .exper-card:nth-last-child(1):nth-child(even) {
+        margin: 0;
+    }
+}
+@media (min-width: 700px) {
+    section p.desc{
+        margin-top: 40vh;
+        font-size: 1em;
+    }
+    section .box
+    {
+        max-width: 70vw;
+    }
+    section .text
+    {
+        top: 30vh;
+    }
+}
+@media (max-width: 700px) {
+    section .box
+    {
+        left: 50vw;
+    }
+    section p.desc
+    {
+        padding: 15px;
+        width: 100%;
+        margin-top: 100px;
+        font-size: 1em;
+        clear: both;
+        float: none;
+    }
+    section .box
+    {
+        margin-top: 15vh;
+        max-width: 70vw;
+    }
+    section .text
+    {
+        left: 0;
+        padding: 20px;
+        font-size: 2em;
+        top: 30vh;
+    }
+    /* section .text:nth-child(1)
+    {
+        font-size: 2em;
+        top: 30vh;
+        left: 0;
+    } */
+    h2.section-title,
+    p.section-title
+    {
+        font-size: 2em;
+    }
+    section.objective p
+    {
+        font-size: 1em;
+        margin: 5%;
+        width: 100%;
+    }
+
+    section.services .container
+    {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.services .container .card
+    {
+        width: 50vw;
+    }
+    section.services .container .card
+    {
+        flex-direction: column;
+        max-width: 300px;
+        height: auto;
+    }
+    section.services .container .card .imgBx
+    {
+        position: relative;
+    }
+    section.services .container .card .imgBx,
+    section.services .container .card:hover .imgBx
+    {
+        width: 100%;
+        height: 200px;
+        left: 0;
+    }
+    section.services .container .card .imgBx img,
+    section.services .container .card:hover .imgBx img
+    {
+        max-width: 100px;
+    }
+    section.services .container .card .content
+    {
+        position: relative;
+        width: 100%;
+    }
+}

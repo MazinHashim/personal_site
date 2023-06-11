@@ -1,0 +1,60 @@
+/*************************** START OF MY PROJECTS ***************************/
+
+section.fuel,
+section.care,
+section.restaurant,
+section.icontact,
+section.codesite,
+section.esim,
+section.ching4g,
+section.nursery
+{ height: 120vh; }
+
+section.care { background: #61086921; }
+section.icontact { background: #100e6e21; }
+section.nursery { background: #08cf1221; }
+
+section p.desc
+{
+    margin-top: 24vh;
+    padding: 5%;
+    font-size: 25px;
+    box-shadow: rgba(228, 154, 47, 0.4) 0 0 0 5px, rgba(228, 154, 47, 0.3) 0 0 0 10px, rgba(228, 154, 47, 0.2) 0 0 0 15px, rgba(228, 154, 47, 0.1) 0 0 0 20px, rgba(228, 154, 47, 0.05) 0 0 0 25px;
+    float: right;
+    width: 50%;
+    line-height: 2;
+}
+section .box
+{
+    position: absolute;
+    top: 75vh;
+    left: 20vw;
+    max-width: 1000px;
+    width: 900px;
+    transform: translate(-50%, -50%);
+}
+section .box img
+{
+    max-width: 100%;
+}
+
+section .text
+{
+    position: absolute;
+    top: 25vh;
+    left: 40px;
+    font-size: 3em;
+    font-weight: 100;
+}
+section .text span a
+{
+    color: #000;
+    font-weight: 300;
+    text-decoration: none;
+}
+section.care .text
+{
+    color: #000;
+}
+
+/*************************** END OF MY PROJECTS ***************************/

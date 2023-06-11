@@ -1,0 +1,104 @@
+/* START HEADER */
+body.dark {
+    background-color: #222;
+    color: white;
+}
+body.dark header {
+    background-color: #222;
+}
+body.dark header .theme {
+    background-color: #222;
+}
+
+body.dark header .theme::before {
+    background-color: #0794a3;
+    color: white;
+    content: "\f186";
+}
+body.dark header .logo {
+    color: white;
+}
+body.dark header span.jop {
+    color: #0794a3;
+}
+body.dark header span.goon {
+    background-color: #154f56;
+}
+body.dark header nav ul li a
+{
+    font-weight: 100;
+    color: white;
+}
+body.dark header nav ul li a:hover
+{
+    color: #0794a3;
+}
+body.dark header.sticky {
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 8px 0px;
+}
+/* END HEADER */
+
+/* START ABOUT */
+body.dark section.objective p { font-weight: 100; }
+/* END ABOUT */
+
+/* START EXPERIANCES */
+body.dark .experiences .exper-card:hover {
+    box-shadow: rgba(7, 148, 163, 0.4) 5px 5px, rgba(7, 148, 163, 0.3) 10px 10px, rgba(7, 148, 163, 0.2) 15px 15px, rgba(7, 148, 163, 0.1) 20px 20px, rgba(7, 148, 163, 0.05) 25px 25px;
+}
+body.dark .experiences .exper-card::before {
+    background: linear-gradient(to right , #03454d 20%,#154f56);
+}
+body.dark .experiences .exper-card::after {
+    background: linear-gradient(to right ,#154f56, #fff 120%);
+}
+body.dark .experiences .exper-card h3,
+body.dark .experiences .exper-card ul li {
+    font-weight: 100;
+}
+/* END EXPERIANCES */
+
+/* START MYPROJECTS */
+body.dark section.nursery { background: #03464d3f; }
+body.dark section.care .text { color: #fff; }
+body.dark section .text span a { color: #fff; }
+body.dark section p.desc {
+    box-shadow: rgba(7, 148, 163, 0.4) 0 0 0 5px, rgba(7, 148, 163, 0.3) 0 0 0 10px, rgba(7, 148, 163, 0.2) 0 0 0 15px, rgba(7, 148, 163, 0.1) 0 0 0 20px, rgba(7, 148, 163, 0.05) 0 0 0 25px;
+}
+/* START MYPROJECTS */
+
+/*  START TESTIMONIALS */
+body.dark section.testimonials {
+    background-color: #000;
+}
+body.dark .testimonials-box .details .img-box {
+    box-shadow: rgba(7, 148, 163, 0.3) 0 0 0 3px, rgba(7, 148, 163, 0.2) 0 0 0 6px, rgba(7, 148, 163, 0.1) 0 0 0 9px, rgba(7, 148, 163, 0.05) 0 0 0 12px, rgba(7, 148, 163, 0.025) 0 0 0 15px;
+}
+/* END TESTIMONIALS */
+
+/* START SERVICES */
+body.dark section.services .container .card {
+    color: black;
+}
+body.dark section.services .container .card:hover .imgBx {
+    background: #154f56;
+}
+body.dark section.services h2.section-title {
+    color: black;
+}
+/* START SERVICES */
+
+/* START CONTACT */
+body.dark section.contact .container.socail ul li span {
+    background: white;
+    color: black;
+}
+body.dark section.contact .container.personal
+{
+    border: 2px solid #fff;
+}
+body.dark section.contact .container.personal img.circle {
+    background-color: white;
+    box-shadow: rgba(7, 148, 163, 0.4) 0 0 0 5px, rgba(7, 148, 163, 0.3) 0 0 0 10px, rgba(7, 148, 163, 0.2) 0 0 0 15px, rgba(7, 148, 163, 0.1) 0 0 0 20px, rgba(7, 148, 163, 0.05) 0 0 0 25px;
+}
+/* END CONTACT */

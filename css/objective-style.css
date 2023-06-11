@@ -1,0 +1,16 @@
+/*************************** START OF OBJECTIVE ***************************/
+
+section.objective
+{
+    margin-top: 100vh;
+    height: auto;
+}
+section.objective p
+{
+    font-size: 1.2em;
+    line-height: 2;
+    margin: 5% 25%;
+    width: 50%;
+    text-align: center;
+}
+/*************************** END OF OBJECTIVE ***************************/

@@ -1,0 +1,48 @@
+/*************************** START OF GLOBAL ***************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter Tight', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+}
+section
+{
+    position: relative;
+    width: 100vw;
+    /* height: 100vh; */
+    padding: 20px 100px;
+    text-align: center;
+}
+section#myprojects
+{
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+p.section-title,
+h2.section-title
+{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 100;
+}
+p.section-title::after,
+h2.section-title::after,
+p.section-title::before,
+h2.section-title::before
+{
+    content: '';
+    background: grey;
+    flex: 1;
+    height: 0.005em;
+    margin: 1em;
+}
+/*************************** END OF GLOBAL ***************************/

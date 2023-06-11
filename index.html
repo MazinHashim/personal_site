@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    
+    <link rel="stylesheet" href="css/global-style.css">
+    <link rel="stylesheet" href="css/header-style.css">
+    <link rel="stylesheet" href="css/objective-style.css">
+    <link rel="stylesheet" href="css/experiences-style.css">
+    <link rel="stylesheet" href="css/services-style.css">
+    <!-- <link rel="stylesheet" href="css/testtimonials-style.css"> -->
+    <link rel="stylesheet" href="css/myproject-style.css">
+    <link rel="stylesheet" href="css/contact-style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+    <link rel="stylesheet" href="css/dark-style.css">
+    
+    <title>Stunning Animation Scroll Trigger | GSAP</title>
+</head>
+<body>
+    <header class="sticky">
+        <div class="theme">
+            <img src="img/me.png">
+        </div>
+        <img src="img/bg-dark.png" class="banner"/>
+        <a href="#" class="logo">Mazin Hashim</a>
+        <span class="jop"><marquee direction="left">Software Developer</marquee></span>
+        <a href="#objective"><span class="goon">Scroll Down To Take A Look</span></a>
+        <div class="toggle"></div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#objective">About</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#myprojects">My Projects</a></li>
+                <!-- <li><a href="#testimonials">Testimonials</a></li> -->
+                <li><a href="#contact">Contant</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="objective" class="objective">
+        <h2 class="section-title">Brief About Me</h2>
+        <p>Web and Mobile Applications Professional with over 3 years of experience in software development and knowledge of the concept of object oriented programming, I has worked on several projects and i am qualified to work in a team environment</p>
+    </section>
+
+    <section id="experiences" class="experiences">
+        <h2 class="section-title">Experiences</h2>
+        <div class="exper-card" data-text="NOV 2020 --o-- FEB 2021">
+            <h3>Mobile-Developer<sub> at Citysoft<sub></h3>
+            <ul>
+                <li>Design interfaces to improve user experience</li>
+                <li>fully functional mobile applications writing clean code</li>
+                <li>Troubleshoot and debug to optimize performance</li>
+            </ul>
+        </div>
+        <div class="exper-card" data-text="FEB 2021  --o-- DEC 2021">
+            <h3>Frontend-Developer<sub> at Code<sub></h3>
+            <ul>
+                <li>Use markup languages like HTML to create user-friendly web pages</li>
+                <li>Converting psd's to creative and responsive web pages</li>
+                <li>Maintain and improve website</li>
+                <li>Collaborate with back-end developers and web designers to improve usability</li>
+                <li>Help back-end developers with coding and troubleshooting</li>
+            </ul>
+        </div>
+        <div class="exper-card" data-text="DEC 2021 --o-- ??? 20??">
+            <h3>Backend-Developer<sub> at Taboor<sub></h3>
+            <ul>
+                <li>Support the entire application lifecycle (concept, design, test, release and support)</li>
+                <li>Write clean code to develop functional web services</li>
+                <li>Worked with a team of expert coders to write maintainable code and maintain existing software to improve performance and fix bugs</li>
+                <!-- <li>Built modern applications using PostgresSQL, Java, and Spring boot and supported the company’s development.</li> -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="section-title">My Services</h2>
+        <div class="container">
+            
+            <div class="card">
+                <div class="imgBx" data-text="Web">
+                    <img src="img/web.png" alt="web">
+                </div>
+                <div class="content">
+                    <div>
+                        <h3>Web Development</h3>
+                        <p>I have abiilty to transform client's businesses with intelligent software solutions. I build all types of apps including inventry control, CMS sytems, and companies websites. I also create apps to include real-time data or even integrate it into existing systems.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx" data-text="Moblie">
+                    <img src="img/mobile.png" alt="mobile">
+                </div>
+                <div class="content">
+                    <div>
+                        <h3>Mobile Development</h3>
+                        <p>I am developing robust and rich end-user experiences through all mobile platforms to support our client’s needs. I have built all types of Mobile Applications, including online stores, logistics, service</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx" data-text="API">
+                    <img src="img/api.png" alt="api">
+                </div>
+                <div class="content">
+                    <div>
+                        <h3>API Integration</h3>
+                        <p>We take care of your data and how to be transited through the internet without easy access to it (completely secure) from unauthorized users.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx" data-text="PSD">
+                    <img src="img/psd.png" alt="psd">
+                </div>
+                <div class="content">
+                    <div>
+                        <h3>Convert PSD's To GUI's</h3>
+                        <p>I know the ins and outs of PSD to HTML conversions. As a result, I've developed an efficient and smooth workflow that saves you time.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="myprojects"></section>
+    <section class="fuel">
+        <h2 class="section-title">My Projects</h2>
+        <h2 class="text">Project 1 <span><a href="http://google.com">Fuel Services App</a></span></h2>
+        <div class="box box0"><img src="img/frame.png" alt="phone frame"/></div>
+        <div class="box box1"><img src="img/screen1.png" alt="screen1"></div>
+        <div class="box box2"><img src="img/screen2.png" alt="screen2"></div>
+        <div class="box box3"><img src="img/screen3.png" alt="screen3"></div>
+        <div class="box box4"><img src="img/screen4.png" alt="screen4"></div>
+        <div class="box box5"><img src="img/screen5.png" alt="screen5"></div>
+        <p class="desc">
+            Providing users with valuable information about gas stations in their area, the application would encourage more engagement, which can lead to higher user retention rates.
+            Users would be able to make more informed decisions about which gas station to visit, based on details about the gas station's services, reviews, and ratings.
+
+        </p>
+    </section>
+    <section class="care">
+        <h2 class="text">Project 2 <span><a href="http://google.com">Time Care App</a></span></h2>
+        <div class="box box0"><img src="img/frame.png" alt="phone frame"/></div>
+        <div class="box box1"><img src="img/screen6.png" alt="screen6"></div>
+        <div class="box box2"><img src="img/screen7.png" alt="screen7"></div>
+        <div class="box box3"><img src="img/screen8.png" alt="screen8"></div>
+        <div class="box box4"><img src="img/screen9.png" alt="screen9"></div>
+        <div class="box box5"><img src="img/screen10.png" alt="screen10"></div>
+        <div class="box box6"><img src="img/screen11.png" alt="screen11"></div>
+        <div class="box box7"><img src="img/screen12.png" alt="screen12"></div>
+        <div class="box box8"><img src="img/screen13.png" alt="screen13"></div>
+        <div class="box box9"><img src="img/screen14.png" alt="screen14"></div>
+        <div class="box box10"><img src="img/screen15.png" alt="screen15"></div>
+        <p class="desc">
+            This application increases convenience for users who may have busy schedules or limited access to healthcare providers.
+            Improve satisfaction levels for users by reducing wait times and minimizing the need for phone calls and paperwork.
+            Increases the efficiency of the how-to system, allowing doctors to manage their schedules more effectively.
+        </p>
+    </section>
+    <section class="restaurant">
+        <h2 class="text">Project 3 <span><a href="http://google.com">Restaurant App</a></span></h2>
+        <div class="box box0"><img src="img/frame.png" alt="phone frame"/></div>
+        <div class="box box1"><img src="img/screen16.png" alt="screen16"></div>
+        <div class="box box2"><img src="img/screen17.png" alt="screen17"></div>
+        <div class="box box3"><img src="img/screen18.png" alt="screen18"></div>
+        <div class="box box4"><img src="img/screen19.png" alt="screen19"></div>
+        <div class="box box5"><img src="img/screen20.png" alt="screen20"></div>
+        <div class="box box6"><img src="img/screen21.png" alt="screen21"></div>
+        <div class="box box7"><img src="img/screen22.png" alt="screen22"></div>
+        <div class="box box8"><img src="img/screen23.png" alt="screen23"></div>
+        <div class="box box9"><img src="img/screen24.png" alt="screen24"></div>
+        <div class="box box10"><img src="img/screen25.png" alt="screen25"></div>
+        <div class="box box11"><img src="img/screen26.png" alt="screen26"></div>
+        <div class="box box12"><img src="img/screen27.png" alt="screen27"></div>
+        <p class="desc">
+            The application enables users to book tables at prestigious restaurants in an easy and cost-effective way could have a great impact on the hospitality industry. It could potentially increase accessibility to high-end dining experiences and attract more customers to these establishments.
+        </p>
+    </section>
+    <section class="icontact">
+        <h2 class="text">Project 4 <span><a href="http://google.com">Icontact Web App</a></span></h2>
+        <div class="box box0"><img src="img/lap_frame.png" alt="phone frame"/></div>
+        <div class="box box1"><img src="img/lap_screen1.png" alt="lap_screen1"></div>
+        <div class="box box2"><img src="img/lap_screen2.png" alt="lap_screen2"></div>
+        <div class="box box3"><img src="img/lap_screen3.png" alt="lap_screen3"></div>
+        <div class="box box4"><img src="img/lap_screen4.png" alt="lap_screen4"></div>
+        <p class="desc">Private Details</p>
+    </section>
+    <section class="codesite">
+        <h2 class="text">Project 5 <span><a href="http://google.com">Code Website</a></span></h2>
+        <div class="box box0"><img src="img/lap_frame.png" alt="phone frame"/></div>
+        <div class="box box1"><img src="img/lap_screen5.png" alt="lap_screen5"></div>
+        <div class="box box2"><img src="img/lap_screen6.png" alt="lap_screen6"></div>
+        <div class="box box3"><img src="img/lap_screen7.png" alt="lap_screen7"></div>
+        <div class="box box4"><img src="img/lap_screen8.png" alt="lap_screen8"></div>
+        <p class="desc">Private Details.</p>
+    </section>
+    <section class="esim">
+        <h2 class="text">Project 6 <span><a href="http://google.com">Chinguitel eSim Webpage</a></span></h2>
+        <div class="box box0"><img src="img/lap_frame.png" alt="phone frame"/></div>
+        <div class="box box1"><img src="img/lap_screen9.png" alt="lap_screen9"></div>
+        <div class="box box2"><img src="img/lap_screen10.png" alt="lap_screen10"></div>
+        <div class="box box3"><img src="img/lap_screen11.png" alt="lap_screen11"></div>
+        <p class="desc">Private Details.</p>
+    </section>
+    <section class="ching4g">
+        <h2 class="text">Project 7 <span><a href="http://google.com">Chinguitel 4g Webpage</a></span></h2>
+        <div class="box box0"><img src="img/lap_frame.png" alt="phone frame"/></div>
+        <div class="box box1"><img src="img/lap_screen12.png" alt="lap_screen12"></div>
+        <div class="box box2"><img src="img/lap_screen13.png" alt="lap_screen13"></div>
+        <p class="desc">Private Details.</p>
+    </section>
+    <section class="nursery">
+        <h2 class="text">Project 8 <span><a href="http://google.com">Nursery Management System</a></span></h2>
+        <div class="box box0"><img src="img/lap_frame.png" alt="phone frame"/></div>
+        <div class="box box1"><img src="img/lap_screen14.PNG" alt="lap_screen14"></div>
+        <div class="box box2"><img src="img/lap_screen15.PNG" alt="lap_screen15"></div>
+        <div class="box box3"><img src="img/lap_screen16.PNG" alt="lap_screen16"></div>
+        <div class="box box4"><img src="img/lap_screen17.PNG" alt="lap_screen17"></div>
+        <p class="desc">This application provides an easy way to register and managing nurseries, parents and their children. Management of child attendance, including check-in and check-out times. Real-time monitoring of child activity, including sleep patterns, food intake, and diaper changes.</p>
+    </section>
+    <!-- <section id="testimonials" class="testimonials">
+        <h2 class="section-title">TESTIMONIALS</h2>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="testimonials-box">
+                        <img class="quote" src="img/quote.png" alt="quote"/>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, deserunt rerum. Corrupti, repellendus eaque vitae, suscipit reiciendis sint nesciunt quisquam voluptatibus eius ipsum ab! Id dolor tempore deserunt quasi est.</p>
+                            <div class="details">
+                                <div class="img-box">
+                                    <img src="img/me.png" alt="user1">
+                                </div>
+                                <h3>Someoune Famous<br><span>Creative Designer</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="testimonials-box">
+                        <img class="quote" src="img/quote.png" alt="quote"/>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, deserunt rerum. Corrupti, repellendus eaque vitae, suscipit reiciendis sint nesciunt quisquam voluptatibus eius ipsum ab! Id dolor tempore deserunt quasi est.</p>
+                            <div class="details">
+                                <div class="img-box">
+                                    <img src="img/me.png" alt="user1">
+                                </div>
+                                <h3>Someoune Famous<br><span>Creative Designer</span></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section> -->
+        <h2 class="section-title">Contact</h2>
+        <section class="contact" id="contact">
+            <div class="personal container">
+                <img class="circle" src="img/me.png">
+                <h2>Mazin Hashim</h2>
+                <div class="col">
+                    <p><i class="fa-solid fa-envelope"></i> maz.hash03@gmail.com</h2>
+                    <p><i class="fa-solid fa-phone"></i> +249965173770</h2>
+                </div>
+            </div>
+            <div class="container linkedInProfile">
+                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="HORIZONTAL" data-vanity="mazin-hashim-3066a7162" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://sa.linkedin.com/in/mazin-hashim-3066a7162?trk=profile-badge"></a></div>
+            </div>
+            <div class="socail container">
+                <ul>
+                    <li>
+                        <a href="">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span class="fa-brands fa-facebook-f"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span class="fa-brands fa-linkedin-in"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span class="fa-brands fa-pinterest-p"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span class="fa-brands fa-github"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/e5eeffdc38.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

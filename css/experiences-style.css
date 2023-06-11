@@ -1,0 +1,81 @@
+.experiences{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: start;
+    min-height: 120vh;
+    grid-gap: 10%
+}
+.experiences h2 {
+    grid-column: 1 / span 2;
+}
+.experiences .exper-card {
+    box-shadow: rgba(110, 110, 110, 0.4) 5px 5px, rgba(110, 110, 110, 0.3) 10px 10px, rgba(110, 110, 110, 0.2) 15px 15px, rgba(110, 110, 110, 0.1) 20px 20px, rgba(110, 110, 110, 0.05) 25px 25px;
+    /* box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px; */
+    padding: 20px 10px 20px 70px;
+    border-radius: 5px;
+    text-align: start;
+    position: relative;
+    transition: 0.5s ease-in-out;
+}
+.experiences .exper-card:hover {
+    box-shadow: rgba(228, 154, 47, 0.4) 5px 5px, rgba(228, 154, 47, 0.3) 10px 10px, rgba(228, 154, 47, 0.2) 15px 15px, rgba(228, 154, 47, 0.1) 20px 20px, rgba(228, 154, 47, 0.05) 25px 25px;
+}
+.experiences .exper-card:nth-last-child(1):nth-child(even) {
+    grid-column: span 2;
+    margin: 0 20vw;
+}
+.experiences .exper-card::before {
+    content: attr(data-text);
+    height: 100%;
+    width: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: linear-gradient(to right , #cf8824 20%,#e49a2f);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: 0.5s ease-in-out;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.2em;
+    text-align: center;
+
+}
+.experiences .exper-card:hover::before {
+    top: -11px;
+    left: -65px;
+    /* box-shadow: rgba(228, 154, 47, 0.4) -5px 5px; */
+    /* box-shadow: rgba(228, 154, 47, 0.4) -5px 5px, rgba(228, 154, 47, 0.3) -10px 10px, rgba(228, 154, 47, 0.2) -15px 15px, rgba(228, 154, 47, 0.1) -20px 20px, rgba(228, 154, 47, 0.05) -25px 25px; */
+}
+.experiences .exper-card::after{
+    content: '';
+    height: 100%;
+    width: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    background: linear-gradient(to right ,#e49a2f, #fff 80%);
+    transform: skewY(30deg) translateX(0);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    transition: 0.5s ease-in-out;
+
+}
+.experiences .exper-card:hover::after{
+    top: -34px;
+    left: -65px;
+    opacity: 1;
+    transform: skewY(30deg) translateX(50px);
+}
+
+.experiences .exper-card h3 sub{
+    font-weight: 100;
+}
+.experiences .exper-card ul li{
+    list-style: none;
+}
