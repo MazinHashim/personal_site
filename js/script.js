@@ -1,6 +1,8 @@
+const header = this.document.querySelector("header");
+
 var getInTo = function (_) {
-    const header = this.document.querySelector("header");
     header.classList.toggle("sticky", window.scrollY > 0);
+    console.log(window.scrollY);
 };
 var changeTheme = function (_) {
     const body = document.querySelector("body");
@@ -11,6 +13,8 @@ var changeTheme = function (_) {
 window.addEventListener("scroll", getInTo);
 window.addEventListener("touchmove", getInTo);
 document.querySelector("header.sticky .theme").addEventListener("click", changeTheme);
+
+header.classList.toggle("sticky", false);
 
 const navigation = document.querySelector("nav");
 
@@ -23,6 +27,11 @@ const btn = document.querySelectorAll(".services .content button");
 for (let i = 0; i < btn.length; i++) {
     btn[i].onclick = function(e) {
         e.target.previousSibling.previousSibling.classList.toggle("more");
+        if(e.target.previousSibling.previousSibling.classList.contains("more")) {
+            e.target.innerText = "Read Less";
+        } else {
+            e.target.innerText = "Read More";
+        }
     }
 }
 var swiper = new Swiper(".mySwiper", {

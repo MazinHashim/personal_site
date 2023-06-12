@@ -95,7 +95,7 @@ section.services .container .content p
     line-height: 1.4;
 }
 section.services .container .content p.more{
-    max-height: auto;
+    max-height: none;
     overflow: visible;
 }
 section.services .container .content button

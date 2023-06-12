@@ -109,12 +109,20 @@
         transform: rotate(0deg) translate(-50%, -50%);
     }
 }
+@media (max-width: 500px) {
+    .experiences {
+        min-height: 230vh;
+    }
+}
 @media (max-width: 800px) {
     section.contact .container
     {
         clear: both;
         float: none;
         width: 100%;
+    }
+    .experiences {
+        min-height: 230vh;
     }
     .experiences h2 {
         grid-column: 1 / span 2;
@@ -198,7 +206,7 @@
     section.services .container .card
     {
         flex-direction: column;
-        max-width: 300px;
+        width: 300px;
         height: auto;
     }
     section.services .container .card .imgBx
