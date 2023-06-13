@@ -21,6 +21,9 @@ section.contact .container.linkedInProfile
 {
     float: right;
 }
+section.contact .container.linkedInProfile iframe {
+    display: inline !important;
+}
 section.contact .container.socail {
     /* background-color: #ddd; */
     display: flex;

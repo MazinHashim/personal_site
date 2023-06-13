@@ -113,13 +113,17 @@
     .experiences {
         min-height: 230vh;
     }
+    section.contact .container.socail {
+        justify-content: unset;
+    }
 }
 @media (max-width: 800px) {
     section.contact .container
     {
         clear: both;
         float: none;
-        width: 100%;
+        width: 85%;
+        margin-bottom: 30px;
     }
     .experiences {
         min-height: 230vh;
