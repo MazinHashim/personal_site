@@ -19,12 +19,11 @@ section p.desc
     margin-top: 4vh;
     padding: 5%;
     font-size: 25px;
-    color: #888;
     text-align: justify;
     box-shadow: rgba(228, 154, 47, 0.4) 0 0 0 5px, rgba(228, 154, 47, 0.3) 0 0 0 10px, rgba(228, 154, 47, 0.2) 0 0 0 15px, rgba(228, 154, 47, 0.1) 0 0 0 20px, rgba(228, 154, 47, 0.05) 0 0 0 25px;
     float: right;
     width: 50%;
-    border-radius: 20px;
+    border-radius: 8px;
     line-height: 2;
 }
 section .box
