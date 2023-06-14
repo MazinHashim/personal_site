@@ -139,10 +139,29 @@
         margin: 0;
     }
 }
+p.desc::before,
+p.desc::after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 10vw;
+    height: 2px;
+    border-radius: 10px;
+    background: linear-gradient(#e49a2f, #ffff);
+    top: -10px;
+    left: -5vh;
+}
+p.desc::after {
+    top: 20px;
+    left: 77%;
+}
 @media (min-width: 700px) {
     section p.desc{
-        margin-top: 40vh;
+        margin-top: 45vh;
         font-size: 1em;
+    }
+    section p.desc:first{
+        margin-top: none;
     }
     section .box
     {
