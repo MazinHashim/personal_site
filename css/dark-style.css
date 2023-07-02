@@ -7,11 +7,14 @@ body.dark header {
     background-color: #222;
 }
 body.dark header .theme {
-    background-color: #222;
+    background: #222 url("../img/moon.svg");
 }
-
+body.dark header.sticky .theme::before
+{
+    background: #154f56;
+}
 body.dark header .theme::before {
-    background-color: #0794a3;
+    background-color: #0794a300;
     color: white;
     content: "\f186";
 }
@@ -35,6 +38,7 @@ body.dark header nav ul li a:hover
 }
 body.dark header.sticky {
     box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 8px 0px;
+    background: #222 url("../img/snow.svg");
 }
 /* END HEADER */
 

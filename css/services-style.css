@@ -8,7 +8,6 @@ section.services
 section.services .container
 {
     position: relative;
-    width: 70vw;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -31,7 +30,7 @@ section.services .container .card .imgBx
     left: 0;
     height: 100%;
     width: 100%;
-    background: #333;
+    background: #4b5864;
     z-index: 1;
     display: flex;
     justify-content: center;

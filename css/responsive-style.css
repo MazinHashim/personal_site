@@ -139,22 +139,6 @@
         margin: 0;
     }
 }
-p.desc::before,
-p.desc::after {
-    content: "";
-    display: block;
-    position: relative;
-    width: 20vw;
-    height: 2px;
-    background: linear-gradient(to right, #e4992f, #ffffff00);
-    top: -10px;
-    left: -5vh;
-}
-p.desc::after {
-    top: 20px;
-    left: 47%;
-    background: linear-gradient(to left, #e4992f, #ffffff00);
-}
 @media (min-width: 700px) {
     section p.desc{
         margin-top: 45vh;
