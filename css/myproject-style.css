@@ -46,6 +46,22 @@ p.desc::after {
     left: 47%;
     background: linear-gradient(to left, #e4992f, #ffffff00);
 }
+
+section p.desc a{
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: #e4992f;
+    border: 1px solid #e4992f;
+    border-radius: 5px;
+    color: white;
+    transition: 0.2s;
+}
+section p.desc a:hover {
+    background-color: #fff;
+    color: black;
+}
 section .box
 {
     position: absolute;

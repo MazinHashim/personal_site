@@ -75,6 +75,17 @@ body.dark p.desc::before {
 body.dark p.desc::after {
     background: linear-gradient(to left, #0794a3, #ffffff00);
 }
+body.dark section p.desc a {
+    
+    background-color: #0794a3;
+    border: 2px solid #0794a3;
+}
+
+body.dark section p.desc a:hover {
+    border: 2px solid #0794a3;
+    background-color: #fff;
+    color: black;
+}
 /* START MYPROJECTS */
 
 /*  START TESTIMONIALS */
