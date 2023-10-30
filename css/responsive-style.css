@@ -144,7 +144,8 @@
         margin-top: 45vh;
         font-size: 1em;
     }
-    section.fuel p.desc{
+    
+    #myprojects + div p.desc{
         margin-top: 170px;
     }
     /* section .box

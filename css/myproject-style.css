@@ -2,6 +2,7 @@
 
 section.fuel,
 section.care,
+section.deliveus,
 section.restaurant,
 section.icontact,
 section.codesite,
@@ -13,6 +14,7 @@ section.nursery
 section.care { background: #61086921; }
 section.icontact { background: #100e6e21; }
 section.nursery { background: #08cf1221; }
+section.deliveus { background: #08cf1221; }
 
 section p.desc
 {

@@ -51,26 +51,6 @@ var swiper = new Swiper(".mySwiper", {
 
 gsap.timeline({
     scrollTrigger: {
-        trigger: "section.fuel",
-        start: "center center",
-        end: "bottom top",
-        markers: false,
-        scrub: true,
-        pin: true,
-    }
-})
-.from(".fuel .text", { scale: 0 })
-.from(".fuel .box0", {scale: 0})
-.to(".fuel .text", {scale: 0})
-.from(".fuel p", {scale: 0})
-.from(".fuel .box1", {opacity : 0})
-.from(".fuel .box2", {scale: 0})
-.from(".fuel .box3", {scale: 0})
-.from(".fuel .box4", {scale: 0})
-.from(".fuel .box5", {scale: 0})
-
-gsap.timeline({
-    scrollTrigger: {
         trigger: "section.care",
         start: "center center",
         end: "bottom top",
@@ -93,6 +73,52 @@ gsap.timeline({
 .from(".care .box8", {scale: 0})
 .from(".care .box9", {scale: 0})
 .from(".care .box10", {scale: 0})
+
+gsap.timeline({
+    scrollTrigger: {
+        trigger: "section.deliveus",
+        start: "center center",
+        end: "bottom top",
+        markers: false,
+        scrub: true,
+        pin: true
+    }
+})
+.from(".deliveus .text", { scale: 0 })
+.from(".deliveus .box0", {scale: 0})
+.to(".deliveus .text", {scale: 0})
+.from(".deliveus p", {scale: 0})
+.from(".deliveus .box1", {opacity : 0})
+.from(".deliveus .box2", {scale: 0})
+.from(".deliveus .box3", {scale: 0})
+.from(".deliveus .box4", {scale: 0})
+.from(".deliveus .box5", {scale: 0})
+.from(".deliveus .box6", {scale: 0})
+.from(".deliveus .box7", {scale: 0})
+.from(".deliveus .box8", {scale: 0})
+.from(".deliveus .box9", {scale: 0})
+.from(".deliveus .box10", {scale: 0})
+.from(".deliveus .box11", {scale: 0})
+
+gsap.timeline({
+    scrollTrigger: {
+        trigger: "section.fuel",
+        start: "center center",
+        end: "bottom top",
+        markers: false,
+        scrub: true,
+        pin: true,
+    }
+})
+.from(".fuel .text", { scale: 0 })
+.from(".fuel .box0", {scale: 0})
+.to(".fuel .text", {scale: 0})
+.from(".fuel p", {scale: 0})
+.from(".fuel .box1", {opacity : 0})
+.from(".fuel .box2", {scale: 0})
+.from(".fuel .box3", {scale: 0})
+.from(".fuel .box4", {scale: 0})
+.from(".fuel .box5", {scale: 0})
 
 gsap.timeline({
     scrollTrigger: {
