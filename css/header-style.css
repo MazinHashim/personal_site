@@ -51,7 +51,7 @@ header .theme
     background-size: contain;
     background-repeat: repeat;
     top: 0;
-    /* right: 52%; */
+    right: 51%;
     object-position: left;
 }
 header .banner,
